@@ -1,0 +1,39 @@
+body{
+    background-color: #dbd9ec;
+}
+
+
+
+h1.titulo{
+    background-color: #808080;
+    color: #fff;
+    font-family: 'Alkatra', cursive;
+    text-align: center;
+}
+
+.cor_texto{
+    color: red;
+}
+
+li.cor_texto1{
+    color: orange;
+}
+
+li.cor_texto2{
+    color: darkblue;
+}
+
+p.fundo{
+    background-color: #808080;
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: rgb(45, 122, 45);
+}
+
+li.cor_texto3{
+    color: brown;
+}
+
