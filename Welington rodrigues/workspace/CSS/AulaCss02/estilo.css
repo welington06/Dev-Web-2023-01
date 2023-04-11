@@ -1,0 +1,18 @@
+*{
+    background-color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+
+.cordefudo{
+    background-color: aquamarine;
+}
+
+#CorDiferente{
+    background-color: aqua;
+}
+
+section p{
+    background-color: blueviolet;
+    color: white;
+}
