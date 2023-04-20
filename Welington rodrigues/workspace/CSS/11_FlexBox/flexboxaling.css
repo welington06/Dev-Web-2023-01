@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body {
+    background-color: #ccc;
+}
+
+body h1 {
+    text-align: center;
+}
+
+.container div {
+    border: 1px #434343 solid;
+    padding: 10px
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.box1 {
+    flex: 1;
+    order: 2;
+}
+
+.box2 {
+    flex: 1;
+    order: 1;
+}
+
+.box3 {
+    flex: 2;
+    order: 3;
+}
+
+.box4 {
+    flex: 2;
+    order: 4;
+}
+
+.bol {
+    list-style: none;
+    font-size: 1.5rem;
+}

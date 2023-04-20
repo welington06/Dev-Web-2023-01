@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="09.Pseu.css">
+    <title>Exercicio 09 Pseudo classes e Pseudo elementos</title>
+
+    <style>
+        h1::first-line {
+            background-color: rgb(194, 194, 194);
+        }
+
+        p::selection {
+            color: rgb(0, 4, 255);
+        }
+
+        li::selection{
+            background-color: blueviolet;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <section class="konteiner">
+        <div class="bot">
+            <h1>Historia da Lamborghini</h1>
+
+            <p>A Lamborghini foi criada, originalmente, para poder competir com a Ferrari. Na verdade, pode
+                muito bem
+                ter
+                sido o
+                próprio Enzo Ferrari a incitar a sua criação. Ferruccio Lamborghini era proprietário da então fábrica de
+                tratores agrícolas e era, fundamentalmente, um industrial agrícola.</p>
+
+            <a class="btn"
+                href="https://www.standvirtual.com/blog/historia-lamborghini/#:~:text=A%20Lamborghini%20foi%20criada%2C%20originalmente,%2C%20fundamentalmente%2C%20um%20industrial%20agr%C3%ADcola."
+                target="_blank">Ver mais</a>
+        </div>
+
+        <div class="listagem">
+            <h1>Carros mais bonitos da Lamborghini</h1>
+            <ul>
+                <li>Aventador</li>
+                <li>Hurúcan</li>
+                <li>Urus</li>
+                <li>Diabllo</li>
+                <li>Veneno</li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>

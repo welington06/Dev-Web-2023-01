@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body {
+    background-color: lightsteelblue;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.konteiner {
+    width: 80%;
+    margin: auto;
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+.btn:active {
+    background-color: red;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.listagem ul {
+    list-style: none;
+}
+
+.listagem li {
+    padding-bottom: 8px;
+    border-bottom: dashed 1px #333;
+}

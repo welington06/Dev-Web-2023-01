@@ -1,0 +1,85 @@
+@charset "uft-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#pai{
+    background-image: url('paisagem.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    text-align: center;
+    padding: 0 20px;
+    color: white;
+}
+
+#pai h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+    border: 3px solid white;
+}
+
+#pai ul{
+    font-size: 23px;
+    line-height: 1.2em;
+    margin-bottom: 18px;
+}
+
+#pai .btn{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    border: #ffffff 1px solid;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+
+#filho{
+    background-color: rgb(255, 250, 243);
+    border: 2px solid black;
+    margin-top: 0.2cm;
+    padding-bottom: 0.5cm;
+}
+
+#filho h1{
+    font-size: 25px;
+}
+
+#filho p{
+    font-size: 18px;
+}
+
+#filho .btn{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    border: #000000 1px solid;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+
+#section-1{
+    padding: 1cm;
+    background-color: orange;
+}
+
+#section-1 p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#section-1 .btn{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    border: #ffffff 1px solid;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
