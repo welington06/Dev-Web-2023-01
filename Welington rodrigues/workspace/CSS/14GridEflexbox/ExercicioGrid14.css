@@ -1,0 +1,94 @@
+@charset "utf-8"; 
+
+body{
+    background-color: rgb(115, 117, 119);
+    color: white;
+    font-family: 'Oswald', sans-serif ;
+}
+
+.header{
+    height: 10vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(36, 37, 37);
+}
+
+.header span{
+    color: red;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    line-height: 1.2rem;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 100px 100px;
+    margin-top: 5rem;
+    gap: 40px;
+}
+
+.item-1{
+    border: 1px solid #000;
+    background-color: orange;
+    font-size: 20px;
+    
+}
+
+.item-2{
+    border: 1px solid #000;
+    background-color: orange;
+    font-size: 20px;
+    
+}
+
+.item-3{
+    border: 1px solid #000;
+    background-color: orange;
+    font-size: 20px;
+    
+}
+
+.item-4{
+    border: 1px solid #000;
+    background-color: orange;
+    font-size: 20px;
+    
+}
+
+.item-5{
+    border: 1px solid #000;
+    background-color: orange;
+    font-size: 20px;
+    
+}
+
+.item-6{
+    border: 1px solid #000;
+    background-color: orange;
+    font-size: 20px;
+    
+}
+
+.item-7{
+    border: 1px solid #000;
+    background-color: orange;
+    font-size: 20px;
+    
+}
+
+.item-8{
+    border: 1px solid #000;
+    background-color: orange;
+    font-size: 20px;
+    
+}
